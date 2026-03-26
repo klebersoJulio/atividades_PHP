@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Formulário</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <!--O nosso CSS personalizado é importado aqui-->
+    <link rel='stylesheet' href="style.css">
+
+    <!--bootstrap url para folha de estilo (css)-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+    <div class="apple-card text-center">
+        <h2>
+            Recursividade em PHP
+        </h2>
+        <p class="text_muted">
+            insira um número para calcular o fatorial
+        </p>
+        <form method="POST" action="index.php">
+            <div class="mb-4">
+                <input type="number" name="numero" class="form-control text-center" placeholder="Ex:5" required>
+                
+                </input>
+            </div>
+            <button type="submit" class="btn btn-apple w-100">calcular</button>
+        </form>
+    </div>
+
+    <!--bootstrap url para Script-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
